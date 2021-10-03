@@ -1,0 +1,31 @@
+Goals
+-----
+
+Move Stitch!
+  - keyboard input
+    - some googling of java keyboard input
+    - some design
+  - response, basically as fast as possible
+    - run separately from main thread
+  - obey all the standard
+    - this is already implemented (just reuse all current movement logic)
+  
+Keyboard input
+--------------
+response?
+  - polling
+    - check if key is pressed
+    - do something
+    - usually rate based   
+        - every 20ms check if key was pressed
+    - to be useful typically on separate thread
+  - event based
+    - somethings given an event
+    - if key is pressed do something
+    - slightly delayed
+    
+  - Direct Memory Access (typical)
+    - puts information in a buffer in Memory
+    - notifies OS
+    - and process reads the Memory
+      - this means proccess still has control over its runtime

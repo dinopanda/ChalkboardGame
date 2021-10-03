@@ -1,0 +1,24 @@
+Rename BoardLayoutParser
+  - to parse 
+  - as well as add to main.com.dino.board/main.com.dino.grid
+
+  Pros
+  - a little more simple
+  Cons
+  - expanded reach/ability object
+
+Return an object to be used by someone else
+  - return list of objects to be made
+  - caller will add list of objects to main.com.dino.grid
+
+  Pros
+  - follows original naming
+  - object logic is simple
+  Cons
+  - memory footprint could be large 
+    - but this is only at init time and would get clean up
+
+To do:
+    - create the correct objects for the list
+    X we need a list
+    X update methods to handle returned list

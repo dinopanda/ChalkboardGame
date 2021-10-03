@@ -1,0 +1,16 @@
+Pushable Block
+--------------
+- has to be movable
+- has the same properties as the box
+
+Think about it as an icon that you dont directly control
+
+Box properties
+- location
+- image
+- not movable
+
+
+Pushable Block properties
+- movable -> true
+- passable -> false

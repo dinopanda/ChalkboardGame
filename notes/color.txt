@@ -1,0 +1,30 @@
+color
+row count
+column count
+size
+stitch
+box
+
+
+----------------
+row/column
+stitch
+box
+
+----------------
+testingA.txt
+
+7, 7
+robot (0,0)
+box (3,3)
+box (2,2)
+----------------
+7, 7
+
+R O O O O O O
+O O O O O O O
+O O O O O B O
+O O O B O O O
+O B O O O O O
+O O O O O O O
+B O O O O O O

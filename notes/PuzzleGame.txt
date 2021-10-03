@@ -1,0 +1,70 @@
+Puzzle Game!
+------------
+
+Goals
+-----
+"Room Based"
+
+Mechanics
+---------
+- Power ups
+  - pull blocks
+  - destory blocks???
+  - speed?
+  - health
+- Pushing blocks
+- buttons
+- Stats!!!
+- Health System
+- Items
+  - destroy blocks 
+
+Block Mechanics
+---------------
+- pushable
+- pullable
+- destoryable 
+- carryable 
+
+Entity Mechanics
+----------------
+- Stats
+  - health
+  - attack
+  - speed 
+- abilities
+  - cool downs
+(enemy) 
+  - track player*****
+
+Questionable Mechanics
+----------------------
+- jump??????
+
+
+First thing to implement
+------------------------
+Stats!
+------
+- hp
+  - regen???
+- speed
+- attack dmg
+- energy (mana) (some kind of energy system??)
+
+Who needs stats?
+----------------
+Entities that are the:
+- player
+- enemy
+- some blocks might need some stats
+  - game play do we want hp for blocks or just number of hits?
+    - number of hits
+    - should that be some sort of special logic in the health system?
+    - or just a counter
+
+Items + Stats
+-------------
+- temp stats
+- temp Items
+- min/max stats?

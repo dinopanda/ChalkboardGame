@@ -1,0 +1,8 @@
+7,7
+R O P O P O O
+I B O O B O O
+O O B O O O O
+O O O O O B O
+O B O O O O O
+O O O O O O O
+O O O O O O B
